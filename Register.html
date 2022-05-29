@@ -28,11 +28,21 @@ background-repeat:none;
 .d{width:100%;
 padding:10px; 
 border-radius: 44px;
-background-color: #a6d6e9; 
+background-color:transparent; 
 margin:4px; 
-border-width:3px; 
+border-width:5px; 
 border-color:black;
+color:white;
+border-top:transparent;
+border-left:transparent;
+border-right:transparent;
+border-bottom-color:rgb(157, 245, 245);
 }
+#f{background-color:rgb(0, 204, 255);
+border-radius:100px;
+font-size: 25px;}
+.d:hover{border-color:rgb(0, 204, 255);}
+input[class="d"]:focus{border-color:rgb(0, 204, 255);}
 </style>
 <title>Register</title>
 </head>
@@ -46,12 +56,12 @@ border-color:black;
       <form method="get" action="">
       <div><h1 align="center">Sign up</h1></div>
       <div class="q">
-           <div><input class="d" type="text" placeholder="First Name"></div>
-           <div><input class="d" type="text"placeholder="Last Name"></div>
-           <div><input class="d" type="email"placeholder="email ID"></div>
-           <div><input class="d" type="password" placeholder="password"></div>
-           <div><select class="d"><option>UCER</option><option>UIT</option><option>UCEM</option><option>UIM</option></select></div>
-           <div><input class="d" type="submit" value="sign up"></div>
+           <div><input class="d" type="text" placeholder="  First Name*"></div>
+           <div><input class="d" type="text"placeholder="  Last Name*"></div>
+           <div><input class="d" type="text"placeholder="  Phone no.*"></div>
+           <div><input class="d" type="email"placeholder="  Email ID*"></div>
+           <div><input class="d" type="password" placeholder="  Password*"></div>
+           <div><input class="d" id="f" type="submit" value="Sign up"></div>
       </div>
       </form>
     </div>
