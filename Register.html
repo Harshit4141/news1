@@ -3,36 +3,67 @@
 <style>
   body
 {
-background-image:url("9.jpg");
-background-position:right bottom;
+  background-image:url("17.png");
+background-position:top;
 background-attachment:fixed;
+background-repeat:none;
 }
 a:link{color:rgb(21, 118, 135);}
-a:visited{color:rgb(4, 4, 4);}
+a:visited{color:rgb(245, 245, 245);}
 a:hover{color:rgb(30, 155, 155);}
 a:active{color:rgba(224, 17, 151, 0.47);}
+.red{
+  margin-left:42%;
+    margin-top:15%;
+    width:320px;
+    background-color:black;
+    border-radius:10px;
+}
+input[type]{
+  margin:2px;
+  margin-right:2px;
+  width:100%;
+  color:white;
+  background-color:rgb(54, 53, 53);
+  border-radius:44px;
+}
+.h1{color:aliceblue;
+text-align:center;}
+.q{
+  margin:5px;
+}
+.w{
+  margin-left:2px;
+}
+.s{color:white;
+  background-color:rgb(54, 53, 53);
+  border-radius:44px;}
+.j{
+  color:white;
+  display:inline-flex;
+
+}
+h3{
+  margin-left:70px;
+}
 </style>
 <title>Register</title>
 </head>
 <body>
-<br><br><br><br><br><br><br><br><br>
+  <div class="red">
+    <div class="j"><span ><a href="Register.html"><h3>sign up</h3></a></span><span><a href="login.html"><h3>Log in</h3></a></span></div>
 <form method="get" action="">
-<table border=10 align="center"background="1.jpg" cellspacing=0>
-<tr>
-<td colspan="2"><h2 align="center">Register</h2></td>
-</tr>
-<tr>
-<td><input type="text" placeholder="First Name"></td>
-<td><input type="text"placeholder="Last Name"></td>
-</tr>
-<tr><td colspan="2"><input type="email"placeholder="email ID"></td>
-</tr>
-<tr><td colspan="2"><input type="password" placeholder="password"></td></tr>
-<tr><td colspan="2"><select><option>UCER</option><option>UIT</option><option>UCEM</option><option>UIM</option></select></td></tr>
-<tr><td><input type="submit"></td>
-<td><input type="reset"></td></tr>
-</table>
-<h3 align="center"><a href="login.html">Login</a></h3>
+<div><h2 class="h1">Sign up for Free</h2></div>
+<div class="q">
+<div><input type="text" placeholder="First Name"></div>
+<div><input type="text"placeholder="Last Name"></div>
+<div><input type="email"placeholder="email ID"></div>
+<div><input type="password" placeholder="password"></div>
+<div class="w"><select class="s"><option>UCER</option><option>UIT</option><option>UCEM</option><option>UIM</option></select></div>
+<div><input type="submit" value="sign up"></div>
+</div>
 </form>
+</div>
 </body>
 </html>
+
