@@ -9,23 +9,14 @@
     }
     .w
     {
-        background-color:pink;
-	border:4px double white;
-	box-shadow:10px 10px orange;
+      background-color:none;
     }
-    .j
-      {
-        text-align:right;
-        background-color:cyan;
-	    color:"blue";
-      }
-        a:link{color:blue;}
-        a:visited{color:rgb(125, 122, 122);}
-        a:hover{color:rgb(246, 250, 247);}
+        a:link{color:white;}
+        a:hover{color:rgb(0, 204, 255);}
         a:active{color:rgba(224, 17, 151, 0.47);}
      body
 	{
-	 background-image: url("67.jpg");
+	 background-image: url("99.jpg");
 	 background-position: center;
 	 background-repeat: no-repeat;
 	 background-attachment: fixed;
